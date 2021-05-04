@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+    <style>
+      body{
+        font-family: sans-serif;
+      }
+      #profile-img{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 5px dotted #f9a825;
+      }
+      .first-block{
+        background-color: #4a4a4a;
+        height: 200px;
+      }
+      #label{
+        color: #1e1e1e;
+        background-color: #f9a825;
+        font-size: 40px;
+        font-weight: 700;
+        border-radius: 4px;
+        padding: 10px 30px;
+        position: relative;
+        bottom: 65px;
+      }
+      .icon{
+        border-radius: 50%;
+        background-color: #4a4a4a;
+        width: 50px;
+        height: 50px;
+        padding-right: 5px;
+        padding-top: 5px;
+      }
+      .dot{
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        border: 5px dotted #f9a825;
+      }
+      .heading{
+        color: #4a4a4a;
+        font-weight: lighter;
+      }
+      .range{
+        height: 10px;
+        width: 200px;
+        -webkit-appearance: none;
+        padding-bottom: 7px;
+      }
+      .range::-webkit-slider-runnable-track {
+        height: 10px;
+        background: linear-gradient(90deg, orange, #fffafa);
+      }
+      .range::-webkit-slider-thumb {
+        box-shadow: 0px 0px 3px #000031;
+        border: 1px solid gray;
+        height: 20px;
+        width: 20px;
+        border-radius: 16px;
+        background: white;
+        -webkit-appearance: none;
+        margin-top: -5px;
+      }
+      .border{
+        border-right: 2px solid gray;
+        border-collapse: collapse;
+      }
+      table{
+        table-layout: fixed;
+        width: 100%;
+      }
+      td{
+        width: 25%;
+      }
+      .pad{
+        padding: 50px;
+      }
+    </style>
+</head>
+<body>
+  <div style="padding: 200px;">
+    <table>
+      <tbody>
+        <tr>
+          <td colspan="2">
+            <div>
+              <div class="first-block">
+                <div style="text-align: center; padding-top: 30px;">
+                  <img  id="profile-img" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/keanu-reeves-john-wick-2-1553197112.jpg?crop=0.420xw:1.00xh;0.0867xw,0&resize=980:*" alt="https://wallpaperaccess.com/full/983569.jpg">
+                </div>
+              </div>
+              <div style="background-color: #f0f0f0; height: 25px;"></div>
+              <div style="background-color: #4a4a4a; height: 25px;"> </div>
+              <div style="text-align: center;">
+                <label for="name" id= label>KEANU REEVES</label>
+              </div>
+              <div style="text-align: center;">
+                <p style="position: relative; bottom: 55px; font-weight: lighter;">
+                  William Morris Endeavor Entertainment, California|310-285-9000|johnwick@gmail.com|www.boogeyman.com
+                </p>
+              </div>
+              <hr style="position: relative; bottom: 65px;">
+          </td>
+        </tr>
+        <tr>
+          <td class="border pad">
+              <div style="padding-bottom: 100px;">
+                <div class="dot" style="float: left;">
+                  <div class="icon">
+                    <i class="fa fa-user fa-2x" style="color: #f9a825; display: flex; justify-content: center; padding: 5px 5px 5px 8px;"></i>
+                  </div>
+              </div>
+              <h1 class="heading" style="float: left; padding-left: 10px;">Profile</h1>
+              <p style="padding-top: 80px;">
+                Keanu Charles Reeves is a Canadian actor. Born in Beirut and raised in Toronto,
+                Reeves began acting in theatre productions and in television films before making
+                his feature film debut in Youngblood.
+              </p>
+          </td>
+          <td class="pad">
+            <div class="dot" style="float: left;">
+              <div class="icon">
+                <i class="fa fa-briefcase fa-2x" style="color: #f9a825; display: flex; justify-content: center; padding: 5px 5px 5px 8px;"></i>
+              </div>
+            </div>
+              <h1 class="heading" style="float: left; padding-left: 10px;">Work experience</h1><br>
+              <div style="padding-top: 70px;">
+                <label style="font-size: large; font-weight: bold; padding-right: 400px;">Charity</label>
+                <label style="font-weight: lighter; font-size: large;">09/1989 - 04/2021</label><br>
+              </div>
+              <p style="padding-top: 40px;">
+                Reeves became a world-famous star after playing the role of Ted Logan in the Bill and Ted movie franchise.
+                For many years now, Reeves has been running a private charitable foundation that helps cancer research and
+                kids' hospital wards. In fact, reports say he has been secretly donating millions every year.
+              </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="border pad">
+            <div class="dot" style="display: inline; float: left;">
+              <div class="icon">
+                <i class="fa fa-flask fa-2x" style="color: #f9a825; display: flex; justify-content: center; padding: 5px 5px 5px 8px;"></i>
+              </div>
+            </div>
+            <h1 class="heading" style="float: left; padding-left: 10px;">Skills</h1><br>
+            <div>
+              <h3 style="text-align: center; padding-top: 50px;">Technical Skills</h3>
+            </div>
+           <div>
+             <label for="js" style="padding: 0 350px 10px 50px;">Java Script</label>
+             <input class="range" type="range" name="js" id="js" value="80"><br>
+             <label for="css"style="padding: 0 396px 10px 50px;">CSS</label>
+             <input class="range" type="range" name="css" id="css" value="60"><br>
+             <label for="html"style="padding: 0 385px 10px 50px;">HTML</label>
+             <input class="range" type="range" name="html" id="html" value="90"><br>
+             <label for="react"style="padding: 0 387px 10px 50px;">React</label>
+             <input class="range" type="range" name="react" id="react" value="80"><br>
+             <label for="redux"style="padding: 0 383px 10px 50px;">Redux</label>
+             <input class="range" type="range" name="redux" id="redux" value="70"><br>
+             <label for="mongo"style="padding: 0 381px 10px 50px;">Mongo</label>
+             <input class="range" type="range" name="mongo" id="mongo" value="50"><br>
+             <label for="development"style="padding: 0 336px 10px 50px;">Development</label>
+             <input class="range" type="range" name="development" id="development" value="60"><br>
+             <h3 style="text-align: center; padding: 5px;">Addtional Skills</h3><br>
+             <label for="fight"style="padding: 0 375px 10px 50px;">Fighting</label>
+             <input class="range" type="range" name="fight" id="fight" value="95"><br>
+             <label for="shoot"style="padding: 0 370px 10px 50px;">Shooting</label>
+             <input class="range" type="range" name="shoot" id="shoot" value="99"><br>
+             <label for="weapon"style="padding: 0 307px 10px 50px;">Weapon Handling</label>
+             <input class="range" type="range" name="weapon" id="weapon" value="99"><br>
+             <label for="reload"style="padding: 0 333px 10px 50px;">Reload Speed</label>
+             <input class="range" type="range" name="reload" id="reload" value="95"><br>
+             <label for="race"style="padding: 0 385px 10px 50px;">Racing</label>
+             <input class="range" type="range" name="race" id="race" value="90"><br>
+           </div>
+          </td>
+          <td rowspan="2" class="pad">
+            <div class="dot" style="float: left;">
+              <div class="icon">
+                <i class="fa fa-graduation-cap fa-2x" style="color: #f9a825; display: flex; justify-content: center; padding: 5px 5px 5px 8px;"></i>
+              </div>
+            </div>
+            <h1 class="heading arrange" style="float: left; padding-left: 10px;">Career</h1>
+            <ul style="padding-top: 100px;">
+              <li>
+                In 1984, Reeves was a correspondent for the Canadian Broadcasting Corporation (CBC)
+                youth television program Going Great.That same year, he made his acting debut
+                in an episode of the television series, called Hangin' In. In 1985, he played
+                Mercutio in a stage production of Romeo and Juliet at the Leah Posluns Theatre in North York, Ontario.
+              </li>
+              <li>
+                In 1991, Reeves starred in Bill & Ted's Bogus Journey, a sequel to Bill & Ted's
+                Excellent Adventure, with his co-star Alex Winter. Michael Wilmington of the Los 
+                Angeles Times wrote that the sequel was "more imaginative, more opulent, wilder and 
+                freer, more excitingly visualized", praising the actors for their "fuller" performances.
+              </li>
+              <li>
+                Following Speed, Reeves' next leading role came in 1995, in the cyberpunk action thriller 
+                Johnny Mnemonic. It is based on the story of the same title by William Gibson, about a man 
+                who has had a cybernetic brain implant.
+              </li>
+              <li>
+                Reeves starred in the critically acclaimed science fiction film The Matrix, the first instalment 
+                in what would become The Matrix franchise.[80] Reeves portrays computer programmer Thomas Anderson, 
+                a hacker using the alias "Neo", who discovers humanity is trapped inside a simulated reality created by 
+                intelligent machines. Written and directed by the Wachowskis, Reeves had to prepare by reading Kevin Kelly's 
+                Out of Control: The New Biology of Machines, Social Systems, and the Economic World, and Dylan Evans's ideas 
+                on evolutionary psychology.
+              </li>
+              <li>
+                He played the titular role in the action thriller John Wick, directed by Chad Stahelski. In the first instalment
+                of the John Wick franchise, Reeves plays a retired hitman seeking vengeance
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td class="border pad">
+            <div style="padding-top: 30px;">
+              <div class="dot" style="float: left;">
+                <div class="icon">
+                  <i class="fa fa-briefcase fa-2x" style="color: #f9a825; display: flex; justify-content: center; padding: 5px 5px 5px 8px;"></i>
+                </div>
+              </div>
+              <h1 class="heading arrange" style="float: left; padding-left: 10px;">Work experience</h1><br>
+              <div style="padding-top: 70px;">
+                <label style="font-size: large; padding-right: 400px;"><b>Actor</b></label>
+                <label style="font-weight: lighter; font-size: large;">09/1964 - 04/2021</label><br>
+              </div>
+              <p>
+                His first professional roles was on a local Toronto television program called "Hanging In," where he played a "tough street kid."
+                Reeves followed up his role on "Hanging In" with more local theater and film productions, before moving to LA in in 1986.
+              </p>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
